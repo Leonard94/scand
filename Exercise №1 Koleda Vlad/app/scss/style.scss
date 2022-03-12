@@ -1,0 +1,72 @@
+@import 'null.scss';
+@import 'fonts.scss';
+
+// Variables
+$color-text: #363738;
+$color-text--second: #6b6b6c;
+$color-accent: #0b7572;
+$color-accent--second: #ffce50;
+$color-background: #ffffff;
+$color-grey: #e9e9ec;
+$font-title: 'Exo 2', sans-serif;
+$font-text: 'PT Sans', sans-serif;
+
+// Common Styles
+.container {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 15px;
+    @media (max-width: 992px) {
+        max-width: 690px;
+        padding: 0 39px;
+    }
+    @media (max-width: 768px) {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+}
+
+h1 {
+    font-family: $font-title;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 125%;
+    color: $color-text;
+
+    @media (max-width: 992px) {
+        font-size: 44px;
+    }
+    @media (max-width: 768px) {
+        font-size: 28px;
+        color: white;
+    }
+}
+
+h2 {
+    font-family: $font-text;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: $color-text;
+
+    @media (max-width: 768px) {
+        font-size: 15px;
+        color: white;
+    }
+}
+
+h3 {
+    font-family: $font-title;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 135%;
+    color: $color-text;
+
+    @media (max-width: 768px) {
+        font-size: 18px;
+    }
+}
+
+@import 'main.scss';
+@import 'services.scss';
+@import 'media.scss';

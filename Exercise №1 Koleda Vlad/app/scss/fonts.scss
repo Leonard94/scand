@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Exo 2';
+    src: local('Exo 2 Semibold'), local('exo2 semibold'),
+        url('../fonts/exo2semibold.woff2') format('woff2'),
+        url('../fonts/exo2semibold.woff') format('woff'),
+        url('../fonts/exo2semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans'), local('ptsans'),
+        url('../fonts/ptsans.woff2') format('woff2'),
+        url('../fonts/ptsans.woff') format('woff'),
+        url('../fonts/ptsans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans Bold'), local('ptsansbold'),
+        url('../fonts/ptsansbold.woff2') format('woff2'),
+        url('../fonts/ptsansbold.woff') format('woff'),
+        url('../fonts/ptsansbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
